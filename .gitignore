@@ -1,0 +1,24 @@
+# Ignore model files and large data
+*.pkl
+*.h5
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# System/OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+
+# Streamlit log files
+.streamlit/
+
+# User-specific folders (like OneDrive)
+*/OneDrive/
