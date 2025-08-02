@@ -20,7 +20,6 @@ This project is a **Streamlit-powered web app** that predicts whether a movie re
    ```bash
    git clone https://github.com/yourusername/sentiment-analysis-app.git
    cd sentiment-analysis-app
-````
 
 2. **Install dependencies**:
 
@@ -78,4 +77,5 @@ streamlit run app.py
 ## 🤝 Credits
 
 Developed by **Mohammed Ahmed Mansour**
+
 Internship Project – Elevvo
