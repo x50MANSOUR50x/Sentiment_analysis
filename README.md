@@ -1,11 +1,6 @@
----
-
-## 📄 `README.md`
-
-````markdown
 # 🎬 Sentiment Analysis: IMDb Movie Reviews
 
-This project is a **streamlit-powered web app** that predicts whether a movie review is **positive** or **negative** using a **Logistic Regression model** trained on the IMDb dataset.
+This project is a **Streamlit-powered web app** that predicts whether a movie review is **positive** or **negative** using a **Logistic Regression model** trained on the IMDb dataset.
 
 ---
 
@@ -22,23 +17,22 @@ This project is a **streamlit-powered web app** that predicts whether a movie re
 ## 📦 Installation
 
 1. **Clone the repo** or download the files:
-```bash
-git clone https://github.com/yourusername/sentiment-analysis-app.git
-cd sentiment-analysis-app
-````
+   ```bash
+   git clone https://github.com/yourusername/sentiment-analysis-app.git
+   cd sentiment-analysis-app
 
 2. **Install dependencies**:
 
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3. **Download NLTK resources (first time only)**:
 
-```python
-import nltk
-nltk.download('stopwords')
-```
+   ```python
+   import nltk
+   nltk.download('stopwords')
+   ```
 
 ---
 
@@ -82,17 +76,6 @@ streamlit run app.py
 
 ## 🤝 Credits
 
-Developed by \[Your Name]
+Developed by **Mohammed Ahmed Mansour**
+
 Internship Project – Elevvo
-
-```
-
----
-
-Let me know if you want it personalized with:
-- Your GitHub link
-- Your full name
-- Screenshots or demo GIFs
-
-I can also help you set up the `.streamlit/config.toml` for theme customization if you like 🌈
-```
