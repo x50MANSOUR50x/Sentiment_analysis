@@ -1,8 +1,3 @@
----
-
-## 📄 `README.md`
-
-````markdown
 # 🎬 Sentiment Analysis: IMDb Movie Reviews
 
 This project is a **streamlit-powered web app** that predicts whether a movie review is **positive** or **negative** using a **Logistic Regression model** trained on the IMDb dataset.
@@ -22,77 +17,56 @@ This project is a **streamlit-powered web app** that predicts whether a movie re
 ## 📦 Installation
 
 1. **Clone the repo** or download the files:
-```bash
-git clone https://github.com/yourusername/sentiment-analysis-app.git
-cd sentiment-analysis-app
-````
+   ```bash
+   git clone https://github.com/yourusername/sentiment-analysis-app.git
+   cd sentiment-analysis-app
+Install dependencies:
 
-2. **Install dependencies**:
-
-```bash
+bash
+Copy
+Edit
 pip install -r requirements.txt
-```
+Download NLTK resources (first time only):
 
-3. **Download NLTK resources (first time only)**:
-
-```python
+python
+Copy
+Edit
 import nltk
 nltk.download('stopwords')
-```
-
----
-
-## ▶️ Run the App
-
-```bash
+▶️ Run the App
+bash
+Copy
+Edit
 streamlit run app.py
-```
-
----
-
-## 📁 Project Structure
-
-```
+📁 Project Structure
+Copy
+Edit
 📦 sentiment-analysis-app/
 ├── app.py
 ├── sentiment_model.pkl
 ├── tfidf_vectorizer.pkl
 ├── requirements.txt
 └── README.md
-```
+📊 Model Info
+Model: Logistic Regression (Scikit-learn)
 
----
+Vectorizer: TF-IDF with top 5000 features + bigrams
 
-## 📊 Model Info
+Dataset: IMDb 50K Movie Reviews
 
-* **Model**: Logistic Regression (Scikit-learn)
-* **Vectorizer**: TF-IDF with top 5000 features + bigrams
-* **Dataset**: [IMDb 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+🌐 Deploy to Streamlit Cloud
+Push this project to a public GitHub repo
 
----
+Go to streamlit.io/cloud
 
-## 🌐 Deploy to Streamlit Cloud
+Connect your GitHub repo
 
-1. Push this project to a public GitHub repo
-2. Go to [streamlit.io/cloud](https://streamlit.io/cloud)
-3. Connect your GitHub repo
-4. Deploy and share your app link 🎉
+Deploy and share your app link 🎉
 
----
-
-## 🤝 Credits
-
-Developed by \[Your Name]
+🤝 Credits
+Developed by Mohamed Ahmed Mansour
 Internship Project – Elevvo
 
-```
 
----
 
-Let me know if you want it personalized with:
-- Your GitHub link
-- Your full name
-- Screenshots or demo GIFs
-
-I can also help you set up the `.streamlit/config.toml` for theme customization if you like 🌈
-```
+ChatGPT can make
