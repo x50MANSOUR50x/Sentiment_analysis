@@ -1,6 +1,6 @@
 # 🎬 Sentiment Analysis: IMDb Movie Reviews
 
-This project is a **streamlit-powered web app** that predicts whether a movie review is **positive** or **negative** using a **Logistic Regression model** trained on the IMDb dataset.
+This project is a **Streamlit-powered web app** that predicts whether a movie review is **positive** or **negative** using a **Logistic Regression model** trained on the IMDb dataset.
 
 ---
 
@@ -20,53 +20,62 @@ This project is a **streamlit-powered web app** that predicts whether a movie re
    ```bash
    git clone https://github.com/yourusername/sentiment-analysis-app.git
    cd sentiment-analysis-app
-Install dependencies:
+````
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Download NLTK resources (first time only):
+2. **Install dependencies**:
 
-python
-Copy
-Edit
-import nltk
-nltk.download('stopwords')
-▶️ Run the App
-bash
-Copy
-Edit
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Download NLTK resources (first time only)**:
+
+   ```python
+   import nltk
+   nltk.download('stopwords')
+   ```
+
+---
+
+## ▶️ Run the App
+
+```bash
 streamlit run app.py
-📁 Project Structure
-Copy
-Edit
+```
+
+---
+
+## 📁 Project Structure
+
+```
 📦 sentiment-analysis-app/
 ├── app.py
 ├── sentiment_model.pkl
 ├── tfidf_vectorizer.pkl
 ├── requirements.txt
 └── README.md
-📊 Model Info
-Model: Logistic Regression (Scikit-learn)
+```
 
-Vectorizer: TF-IDF with top 5000 features + bigrams
+---
 
-Dataset: IMDb 50K Movie Reviews
+## 📊 Model Info
 
-🌐 Deploy to Streamlit Cloud
-Push this project to a public GitHub repo
+* **Model**: Logistic Regression (Scikit-learn)
+* **Vectorizer**: TF-IDF with top 5000 features + bigrams
+* **Dataset**: [IMDb 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
-Go to streamlit.io/cloud
+---
 
-Connect your GitHub repo
+## 🌐 Deploy to Streamlit Cloud
 
-Deploy and share your app link 🎉
+1. Push this project to a public GitHub repo
+2. Go to [streamlit.io/cloud](https://streamlit.io/cloud)
+3. Connect your GitHub repo
+4. Deploy and share your app link 🎉
 
-🤝 Credits
-Developed by Mohamed Ahmed Mansour
+---
+
+## 🤝 Credits
+
+Developed by **Mohammed Ahmed Mansour**
 Internship Project – Elevvo
-
-
-
-ChatGPT can make
