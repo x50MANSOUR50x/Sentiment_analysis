@@ -5,8 +5,8 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 
 # Load model and vectorizer
-model = joblib.load(r'C:\Users\moham\OneDrive\Desktop\Courses\Elevvo Internship\Sentiment Analysis\Sentiment Analysis\Models trained\sentiment_model.pkl')
-vectorizer = joblib.load(r'C:\Users\moham\OneDrive\Desktop\Courses\Elevvo Internship\Sentiment Analysis\Sentiment Analysis\Models trained\tfidf_vectorizer.pkl')
+model = joblib.load(r'Models trained\sentiment_model.pkl')
+vectorizer = joblib.load(r'Models trained\tfidf_vectorizer.pkl')
 
 # Text cleaning function
 stop_words = set(stopwords.words('english'))
